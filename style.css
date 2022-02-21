@@ -59,6 +59,7 @@ header {
      padding: 6px 20px 6px 20px;
      margin-top: 10px;
      border-radius: 10px;
+     border: 1px solid #3882f6;
  }
 
  .hero {
@@ -145,10 +146,37 @@ header {
  }
 
  .call-to-action {
-     width: 1080px;
+     width: 800px;
      background-color: #3882f6;
      margin: 100px;
+     padding: 30px 70px;
      border-radius: 10px;
      display: flex;
      justify-content: space-between;
+     color: white;
+ }
+
+ .bold {
+     font-weight: 900;
+ }
+
+ .small {
+     font-size: 0.9em;
+ }
+
+ .call-button {
+     color: white;
+     border: 1px solid #f9faf8;
+     font-size: 0.8em;
+ }
+
+ footer {
+     background-color: #1f2937;
+     text-align: center;
+ }
+
+ footer p {
+     color: #f9faf8;
+     padding: 40px;
+     font-size: 12px;
  }
